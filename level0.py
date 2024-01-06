@@ -60,5 +60,5 @@ pathDict["path"] = curr
 resDict[vehicle_no] = pathDict
 print(resDict)
 json_object = json.dumps(resDict)
-with open("C:\Alumni_Hackathon\Output_data\level0.json", "w") as outfile:
+with open("C:\Alumni_Hackathon\Output_data\level0_output.json", "w") as outfile:
     outfile.write(json_object)
